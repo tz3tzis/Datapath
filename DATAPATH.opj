@@ -1,0 +1,111 @@
+(ExpressProject "DATAPATH"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\analog.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\breakout.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\source.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\special.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\datapath.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\datapath-test.net"
+      (Type "Report"))
+    (File ".\datapath-test.drc"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\datapath-test-timetest.sim"
+        (DisplayName "TEST-TIMETEST")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\datapath-test-test421.sim"
+        (DisplayName "TEST-TEST421")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\datapath-test-test422.sim"
+        (DisplayName "TEST-TEST422")
+        (Type "PSpice Profile"))
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\datapath-test-test24.sim"
+        (DisplayName "TEST-TEST24")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\datapath-test-latchtest.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\datapath-test-latchtest.sim"
+        (DisplayName "TEST-latchtest")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 640 864 -4 -40 0 291 7 625"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 0 860 -4 -40 44 1806 78 706")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\VLSI5\ORCAD\DESIGNS\VLSI\TZETZAROS\DATAPATH.DSN")
+      (Schematic "TEST")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -40 88 1825 156 788")
+        (Scroll "0 210")
+        (Zoom "100"))
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -40 110 1847 195 827")
+        (Scroll "0 0")
+        (Zoom "100"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\VLSI5\ORCAD\DESIGNS\VLSI\TZETZAROS\DATAPATH.DSN")
+      (Schematic "RCA")
+      (Page "PAGE1"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -40 132 1869 234 866")
+        (Scroll "0 420")
+        (Zoom "100")
+        (Occurrence "/FINALDATA"))
+      (Path
+         "C:\DOCUMENTS AND SETTINGS\VLSI5\ORCAD\DESIGNS\VLSI\TZETZAROS\DATAPATH.DSN")
+      (Schematic "FINALDATA")
+      (Page "PAGE1"))))

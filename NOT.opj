@@ -1,0 +1,74 @@
+(ExpressProject "NOT"
+  (ProjectVersion "19981106")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\analog.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\breakout.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\source.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\sourcstm.olb"
+        (Type "Schematic Library"))
+      (File
+         "C:\Program Files\CAD-Tools\OrCAD\CAPTURE\LIBRARY\PSPICE\special.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\not.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (RootChangedForceReNetlist "x"))
+  (Folder "Outputs"
+    (File ".\not-schematic1.net"
+      (Type "Report"))
+    (File ".\not-schematic1.drc"
+      (Type "Report"))
+    (File ".\not-test.net"
+      (Type "Report"))
+    (File ".\not-test.drc"
+      (Type "Report")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles"
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\not-schematic1-dc.sim"
+        (DisplayName "SCHEMATIC1-DC")
+        (Type "PSpice Profile"))
+      (ActiveProfile ".\not-test-time.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91} ".\not-test-time.sim"
+        (DisplayName "TEST-Time")
+        (Type "PSpice Profile")))
+    (Folder "Model Libraries"
+      (Sort User)
+      (File "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib"
+        (Type "PSpiceLibrary")
+        (DisplayName
+           "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib")))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "C:\Documents and Settings\vlsi5\OrCAD\Designs\VLSI\Tzetzaros\not.dsn")
+      (Path "Design Resources"
+         "C:\Documents and Settings\vlsi5\OrCAD\Designs\VLSI\Tzetzaros\not.dsn"
+         "NOT")
+      (Path "Design Resources" "Library")
+      (Select "Design Resources"
+         "C:\Documents and Settings\vlsi5\OrCAD\Designs\VLSI\Tzetzaros\not.dsn"
+         "NOT" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -40 732 984 29 647"))
+      (Tab 0))))

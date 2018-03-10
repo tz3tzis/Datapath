@@ -1,0 +1,234 @@
+
+--------------------------------------------------
+Checking Schematic: SHIFTER4BIT
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict SHIFTER0,Zi Output Connected to Input Port
+                    SHIFTER4BIT, PAGE1  (8.70, 4.80) 
+ERROR:  [DRC0004]  Possible pin type conflict SHIFTER1,Zi Output Connected to Input Port
+                    SHIFTER4BIT, PAGE1  (12.00, 4.80) 
+ERROR:  [DRC0004]  Possible pin type conflict SHIFTER2,Zi Output Connected to Input Port
+                    SHIFTER4BIT, PAGE1  (15.30, 4.80) 
+ERROR:  [DRC0004]  Possible pin type conflict SHIFTER,Zi Output Connected to Input Port
+                    SHIFTER4BIT, PAGE1  (5.30, 4.80) 
+WARNING:  [DRC0004]  Possible pin type conflict SHIFTER,VDD Power Connected to Bidirectional Port
+                    SHIFTER4BIT, PAGE1  (5.50, 2.80) 
+WARNING:  [DRC0004]  Possible pin type conflict SHIFTER,GND Power Connected to Bidirectional Port
+                    SHIFTER4BIT, PAGE1  (5.90, 4.80) 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: PASSG
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: SHIFTER
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict PASSGATE0,DIN Bidirectional Connected to Input Port
+                    SHIFTER, PAGE1  (7.60, 7.90) 
+WARNING:  [DRC0004]  Possible pin type conflict PASSGATE,DIN Bidirectional Connected to Input Port
+                    SHIFTER, PAGE1  (7.60, 3.70) 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: DFLIPFLOP
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+WARNING:  [DRC0007]  Net has no driving source N00062
+                    DFLIPFLOP, PAGE1  (7.20, 2.80) 
+WARNING:  [DRC0007]  Net has no driving source Q
+                    DFLIPFLOP, PAGE1  (10.50, 2.80) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: TEST
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict FINALDATA,GND Bidirectional Connected to Power
+                    TEST, PAGE1  (16.20, 4.70) 
+
+Checking for Unconnected Wires
+WARNING:  [DRC0006]  Net has fewer than two connections OUT2
+                    TEST, PAGE1  (13.90, 5.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections OUT4
+                    TEST, PAGE1  (14.50, 5.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections OUT1
+                    TEST, PAGE1  (13.60, 5.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections OUT3
+                    TEST, PAGE1  (14.20, 5.40) 
+WARNING:  [DRC0006]  Net has fewer than two connections OVER
+                    TEST, PAGE1  (15.60, 5.40) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: REGISTERSHIFT
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: MUX421
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: XOR
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict PG1,DIN Bidirectional Connected to Input Port
+                    XOR, PAGE1  (8.00, 2.60) 
+WARNING:  [DRC0004]  Possible pin type conflict PG0,DIN Bidirectional Connected to Output
+                    XOR, PAGE1  (8.00, 5.00) 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: FINALDATA
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict REGISTER4,GND Power Connected to Bidirectional Port
+                    FINALDATA, PAGE1  (9.40, 2.80) 
+WARNING:  [DRC0004]  Possible pin type conflict SHIFTER4BIT,GND Bidirectional Connected to Power
+                    FINALDATA, PAGE1  (10.90, 7.90) 
+WARNING:  [DRC0004]  Possible pin type conflict DFLIP,VDD Power Connected to Bidirectional
+                    FINALDATA, PAGE1  (12.80, 11.30) 
+WARNING:  [DRC0004]  Possible pin type conflict DFLIP,VDD Power Connected to Bidirectional Port
+                    FINALDATA, PAGE1  (12.80, 11.30) 
+
+Checking for Unconnected Wires
+WARNING:  [DRC0007]  Net has no driving source N00298
+                    FINALDATA, PAGE1  (10.20, 7.90) 
+WARNING:  [DRC0007]  Net has no driving source N00293
+                    FINALDATA, PAGE1  (9.90, 7.90) 
+WARNING:  [DRC0007]  Net has no driving source N00278
+                    FINALDATA, PAGE1  (9.40, 7.90) 
+WARNING:  [DRC0007]  Net has no driving source N00288
+                    FINALDATA, PAGE1  (9.60, 7.90) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: FADDER
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: RCA
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: MUX
+--------------------------------------------------
+Checking Electrical Rules 
+WARNING:  [DRC0004]  Possible pin type conflict PG0,DIN Bidirectional Connected to Output
+                    MUX, PAGE1  (7.40, 4.90) 
+WARNING:  [DRC0004]  Possible pin type conflict PG1,DIN Bidirectional Connected to Output
+                    MUX, PAGE1  (7.40, 2.50) 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: NOTx1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: NOTx2
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: REGISTER4
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: LATCH
+--------------------------------------------------
+Checking Electrical Rules 
+ERROR:  [DRC0004]  Possible pin type conflict MUX,Z Output Connected to Input Port
+                    LATCH, PAGE1  (9.90, 3.10) 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections

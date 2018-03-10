@@ -1,0 +1,56 @@
+* source NOT
+V_V1         N00044 0 1.8V
+V_V2         A 0  
++PULSE 0 1.8 0 100p 100p 400p 1n
+V_V3         B 0  
++PULSE 0 1.8 0 100p 100p 900p 2n
+M_NOR1_M4         NOR1_N00673 A N00044 N00044 MbreakPD  
++ L=180n  
++ W=2400n    
++ PD=5280n  
++ PS=5280n     
+M_NOR1_M2         ZNOR B 0 0 MbreakND  
++ L=180n  
++ W=240n    
++ PD=960n  
++ PS=960n     
+M_NOR1_M1         ZNOR A 0 0 MbreakND  
++ L=180n  
++ W=240n    
++ PD=960n  
++ PS=960n     
+M_NOR1_M3         ZNOR B NOR1_N00673 N00044 MbreakPD  
++ L=180n  
++ W=2400n    
++ PD=5280n  
++ PS=5280n     
+M_NAND1_M3         ZNAND A N00044 N00044 MbreakPD  
++ L=180n  
++ W=1200n    
++ PD=2880n  
++ PS=2880n     
+M_NAND1_M4         ZNAND B N00044 N00044 MbreakPD  
++ L=180n  
++ W=1200n    
++ PD=2880n  
++ PS=2880n     
+M_NAND1_M2         NAND1_N00011 A 0 0 MbreakND  
++ L=180n  
++ W=480n    
++ PD=1440n  
++ PS=1440n     
+M_NAND1_M1         ZNAND B NAND1_N00011 0 MbreakND  
++ L=180n  
++ W=480n    
++ PD=1440n  
++ PS=1440n     
+M_NOT1_M1         ZNOT ZNAND N00044 N00044 MbreakPD  
++ L=180n  
++ W=1200n    
++ PD=2880n  
++ PS=2880n     
+M_NOT1_M2         ZNOT ZNAND 0 0 MbreakND  
++ L=180n  
++ W=240n    
++ PD=960n  
++ PS=960n     

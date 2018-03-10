@@ -1,0 +1,22 @@
+** circuit file for profile: Time 
+
+** WARNING: DO NOT EDIT OR DELETE THIS FILE
+
+*Libraries: 
+* Local Libraries :
+.LIB "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib" 
+* From [PSPICE NETLIST] section of pspice.ini file:
+
+*Analysis directives: 
+.TRAN  0 2ns 0 10p 
+.PROBE 
+
+*Netlist File: 
+.INC "datapath-TEST.net" 
+
+
+*Alias File: 
+.INC "datapath-TEST.als"
+
+
+.END

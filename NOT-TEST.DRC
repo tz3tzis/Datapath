@@ -1,0 +1,61 @@
+
+--------------------------------------------------
+Checking Schematic: TEST
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+WARNING:  [DRC0006]  Net has fewer than two connections ZNOR
+                    TEST, PAGE1  (10.80, 3.30) 
+WARNING:  [DRC0006]  Net has fewer than two connections ZNOT
+                    TEST, PAGE1  (12.70, 3.20) 
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: NAND
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+WARNING:  [DRC0035]  Two connected wires/buses form a T yet there is no junction to show a connection is being made. VDD
+                    NAND, PAGE1  (9.90, 1.40) 
+
+--------------------------------------------------
+Checking Schematic: NOR
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: NOT
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking for Unconnected Wires
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections

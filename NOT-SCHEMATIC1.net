@@ -1,0 +1,13 @@
+* source NOT
+V_V2         VIN 0 0V
+V_V1         N00017 0 1.8V
+M_M2         VOUT VIN 0 0 MbreakND  
++ L=180n  
++ W=240n    
++ PD=960n  
++ PS=960n     
+M_M1         VOUT VIN N00017 N00017 MbreakPD  
++ L=180n  
++ W=1200n    
++ PD=960n  
++ PS=960n     

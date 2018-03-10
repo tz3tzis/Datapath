@@ -1,0 +1,23 @@
+** circuit file for profile: DC 
+
+** WARNING: DO NOT EDIT OR DELETE THIS FILE
+
+*Libraries: 
+* Local Libraries :
+.LIB "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib" 
+* From [PSPICE NETLIST] section of pspice.ini file:
+.lib "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\ediode.lib" 
+
+*Analysis directives: 
+.DC LIN V_V2 0 1.8V 10m 
+.PROBE 
+
+*Netlist File: 
+.INC "not-SCHEMATIC1.net" 
+
+
+*Alias File: 
+.INC "not-SCHEMATIC1.als"
+
+
+.END

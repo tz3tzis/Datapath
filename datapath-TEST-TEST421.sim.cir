@@ -1,0 +1,21 @@
+** circuit file for profile: TEST421 
+
+** WARNING: DO NOT EDIT OR DELETE THIS FILE
+
+*Libraries: 
+* Local Libraries :
+.LIB "C:\Documents and Settings\vlsi5\OrCAD\PSPICE-LIB\UMC_018-TT.lib" 
+* From [PSPICE NETLIST] section of pspice.ini file:
+
+*Analysis directives: 
+.PROBE 
+
+*Netlist File: 
+.INC "datapath-TEST.net" 
+
+
+*Alias File: 
+.INC "datapath-TEST.als"
+
+
+.END
